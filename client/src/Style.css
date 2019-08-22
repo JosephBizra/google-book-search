@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+a:focus{
+    color: black;
+    text-decoration: none;
+}
+button:focus {
+    outline: 0;
+}
+.form {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+}
+.grid {
+    margin: 10px, auto;
+    border: solid black 5px;
+}
+.row {
+    border: solid black 5px;
+}
+.image {
+    max-width: 20%;
+    float: left;
+}
+.description {
+    max-width: 70%;
+float: left;
+}
